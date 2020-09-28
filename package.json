@@ -1,0 +1,17 @@
+{
+  "name": "mocha-basico",
+  "version": "1.0.0",
+  "description": "Ejemplo basico de pruebas con mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "coverage": "nyc --reporter=html mocha "
+  },
+  "author": "Esteban Volentini",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0"
+  }
+}
